@@ -1,6 +1,7 @@
 plugins {
-    id("com.android.library") version "8.5.2"
-    id("org.jetbrains.kotlin.android") version "2.0.21"
+    // AGP 9 уже включает поддержку Kotlin,
+    // поэтому достаточно только Android-плагина библиотеки
+    id("com.android.library")
 }
 
 android {
